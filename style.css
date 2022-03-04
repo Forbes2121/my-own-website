@@ -66,8 +66,15 @@ a:active {
 }
 
 /* aligns some text to the left */
-.align-left {
+.align-center {
+  text-align: center;
+}
+
+ul, ol {
+  display: table;
+  margin: 0 auto;
   text-align: left;
+  list-style-position: inside;
 }
 
 h3 {
@@ -80,29 +87,11 @@ h4 {
   margin-left: 10px;
 }
 
-/* attempt to format those two lists in the middle of my webpage cleanly */
-.doubleList {
-  text-align: center;
-  width: auto;
-  height: auto;
-  margin: auto;
-  display: table-row;
-}
-
 /* on of the two lists, left side */
-.interests {
-  margin: auto;
-  padding-left: 140px;
-  width: 50%;
-  display: table-cell;
-}
+
 
 /* second of the lists, on the right. I couldn't figure out how to make these look cleaner upon re-sizing my window */
-.teams {
-  margin: auto;
-  padding-left: 50px;
-  display: table-cell;
-}
+
 
 /* I struggled to find a font I liked for all of the paragraphs! */
 p {
