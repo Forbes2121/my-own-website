@@ -1,0 +1,142 @@
+<!-- Initialization of the html code -->
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- head data before we get into the body -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- normalize for web browser compatibility -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylsheet">
+    <title>Tyler Forbes Personal Site</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <!-- body or meat of the website now -->
+  <body>
+
+    <!-- header containing title, quote, and nav links -->
+    <header>
+      <h1>
+        <strong>Tyler Forbes</strong>
+      </h1>
+      <h2>
+        Great Day To Be Alive
+      </h2>
+      <nav>
+        <a class="navLink" href="intro">Intro</a>
+        <a class="navLink" href="about">About</a>
+        <a class="navLink" href="photos">Photos</a>
+        <a class="navLink" href="location">Location</a>
+        <a class="navLink" href="contact">Contact</a>
+      </nav>
+    <hr>
+    </header>
+
+    <!-- main picture of me, easily visible -->
+    <main>
+      <img class="center" src="images/golden-boot-winner.jpeg" alt="Tyler holding a golden boot trophy" style="width:250px;height:auto;">
+
+      <hr>
+
+      <!-- first block of 5, as per nav links and instructions -->
+      <h3 id="intro">Introduction</h3>
+      <p>
+        My name is Tyler Forbes, and I am a 27 year old ex-Financier attempting to break into the world of software development. I'm beyond excited about this journey full of growth, discovery, challenges, and more. 
+      </p>
+      <p>
+        Right now I am taking a little break from the Big Apple, and moved back home to <a href="location">Syracuse, NY</a>. My family still lives here, and it still holds a special place in my heart thanks to so many good memories.
+      </p>
+
+      <hr>
+
+      <!-- second block, also includes pseudo-class for the external Thinkful link -->
+    <h3 id="about">About Me</h3>
+    <p>
+      I've always been fascinated by computers and gaming while growing up. I have very fond recollections of N64 sessions, grinding on Runescape, and trying to keep my K/D up in either Halo or COD series.
+    </p>
+    <p>
+      The world is only getting more and more digital, and so now is a great time for me to develop a skillset that will last a lifetime. I am really enjoying using the <a href="https://www.thinkful.com/" target="_blank">Thinkful</a> platform so far for my learning!
+    </p>
+
+      <!-- probably the hardest part of the code was getting these lists to look good and align properly, likely ineffeciencies here -->
+      <div class="doubleList">
+      <div class="interests">
+      <h4 class="align-left">
+        <u>Non-coding interests:</u>
+      </h4>
+      <ul class="align-left">
+        <li> The Outdoors</li>
+        <li> Friends/family</li>
+        <li> Beaches</li>
+        <li> Snowboarding</li>
+        <li> Playing Sports</li>
+        <li> Watching Soccer</li>
+        <li> Video Games</li>
+        <li> Reading </li>
+        <li> Listening to Podcasts</li>
+        <li> Volunteering</li>
+      </ul>
+      </div>
+      <div class="teams">
+      <h4 class="align-left">
+        <u>Top soccer clubs in the World:</u>
+      </h4>
+        <ol class="align-left">
+          <li> Manchester City</li>
+          <li> Liverpool FC</li>
+          <li> Bayern Munich</li>
+          <li> Paris Saint Germain</li>
+          <li> Chelsea FC</li>
+          <li> Real Madrid</li>
+          <li> Barcelona FC</li>
+          <li> Ajax</li>
+          <li> Inter Milan</li>
+          <li> Manchester United</li>
+        </ol>
+      </div>
+      </div>
+      <p>
+        And before you give me crap about putting Man U in the top 10 clubs in the world... that's my team! I love them and have been a supporter throughout the years.
+      </p>
+      
+      <hr>
+
+      <!-- photo drop, likely should have found a way to style-ize these more and make the format/layout cleaner -->
+      <h3 id="photos">Photo Collection</h3>
+      <img src="images/skimming.JPG" alt="Skim boarding" style="width:auto;height:210px">
+      <img src="images/running1.JPG" alt="Running with ball" style="width:auto;height:210px">
+      <img src="images/seniors.JPG" alt="Four soccer seniors together" style="width:auto;height:210px">
+      <img src="images/canyon.JPG" alt="Grand Canyon" style="width:auto;height:210px">
+      <img src="images/turning.JPG" alt="Turning with the ball" style="width:auto;height:210px">
+      <img src="images/snowboarding.JPG" alt="Snowboarding" style="width:auto;height:210px">
+      <img src="images/team1.JPG" alt="Team picture" style="width:auto;height:210px">
+      <img src="images/highfive.JPG" alt="High fiving a teammate" style="width:auto;height:210px">
+      
+      <hr>
+
+      <!-- location via a google map embeded, didn't play around with this much at all -->
+      <h3 id="location">Current Location</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93321.45800751506!2d-76.2094911238086!3d43.03521244114652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39bbf979a0d%3A0xd50ce2d7ad9545!2sSyracuse%2C%20NY!5e0!3m2!1sen!2sus!4v1646355462314!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+      <hr>
+
+      <!-- contact information at the bottom, maybe should have styled it more -->
+      <h3 id="contact">Contact Info</h3>
+        Professional Story:   <a href="https://www.linkedin.com/in/tyler-forbes2121/" target="_blank"> LinkedIn</a>
+      <br>
+        Coding Projects:   <a href="https://github.com/Forbes2121" target="_blank"> GitHub</a>
+      <br>
+        Email Me:   <a href="mailto:forbes2121@gmail.com" target="_blank"> forbes2121@gmail.com</a>
+    </main>
+
+    <!-- footer to end out the single web page -->
+    <footer>
+      <h4 class="endingNote">
+        <span>&#169;</span>Page designed and developed by Tyler Forbes
+      </h4>
+    </footer>
+  </body>
+</html>
+
