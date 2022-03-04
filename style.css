@@ -65,11 +65,12 @@ a:active {
   margin-right: auto;
 }
 
-/* aligns some text to the left */
+/* aligns some text to the center, potentially unnecessary */
 .align-center {
   text-align: center;
 }
 
+/* fixes my list alignments such that they are in the center, but text aligned left and clean looking! */
 ul, ol {
   display: table;
   margin: 0 auto;
@@ -86,12 +87,6 @@ h4 {
   color: indianred;
   margin-left: 10px;
 }
-
-/* on of the two lists, left side */
-
-
-/* second of the lists, on the right. I couldn't figure out how to make these look cleaner upon re-sizing my window */
-
 
 /* I struggled to find a font I liked for all of the paragraphs! */
 p {
