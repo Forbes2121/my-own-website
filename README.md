@@ -9,6 +9,8 @@ Certainly more work to be done, but an exciting first step on my road to becomin
 
 Please let me know if you have any tips, tricks, or suggestions for the website.
 
+Link to the website: https://forbes2121.github.io/my-own-website/ 
+
 
 Peace and love,
 
