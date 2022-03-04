@@ -82,6 +82,7 @@ h4 {
 
 /* attempt to format those two lists in the middle of my webpage cleanly */
 .doubleList {
+  text-align: center;
   width: auto;
   height: auto;
   margin: auto;
@@ -108,7 +109,7 @@ p {
   text-align: center;
   position: relative;
   padding: 10px;
-  margin: 10px 100px;
+  margin: 10px 150px;
   font-family: helvetica, arial, "Times New Roman";
 }
 
